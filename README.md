@@ -4,7 +4,7 @@ A standalone, mobile-first scoreboard for a JV Ultimate practice. All styles and
 
 ## Use it
 
-Download `index.html` to use on a computer, or host it for the best iPhone experience. Edit either team name, select the scoring team, toggle bonuses, and tap **Add Points**. The base goal always adds 1 point. Hand Block buttons immediately award 2 points. Turnover buttons immediately subtract 2 points from that team; scores can go below zero. Penalties are saved in history and can be undone. **Undo last** reverses the latest scoring action. **New Game** asks before clearing names and history.
+Download `index.html` to use on a computer, or host it for the best iPhone experience. Edit either team name, select the scoring team, toggle bonuses, and tap **Add Points**. The base goal always adds 1 point. A No-Turnover Scoring Possession adds a 3 point bonus. Hand Block buttons immediately award 2 points. Stall 10 buttons immediately award 3 points. Offense Turnover and Get Beat Deep buttons immediately subtract 3 points from that team; scores can go below zero. Actions are saved in history and can be undone. **Undo last** reverses the latest scoring action. **New Game** asks before clearing names and history. Existing saved plays retain their original point values.
 
 Scores and history save automatically in this browser's localStorage. Each device/browser has its own game; sharing the URL does not share scores. Private browsing, clearing website data, or unavailable storage can remove/prevent persistence. A warning appears if saving fails.
 
